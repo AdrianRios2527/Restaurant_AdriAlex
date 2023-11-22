@@ -1,3 +1,10 @@
 body{
     background: #BDBDBD;
 }
+
+@media(max-width:1736px) {
+    .burger-text{
+        font-size: 1px !important;
+        
+    }
+}

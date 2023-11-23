@@ -1,3 +1,18 @@
 html{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
+
+.pulsar{
+    transition: background 300ms linear ,scale 500ms ease;
+    background-color: rgb(119, 186, 241);
+}
+
+.pulsar:hover{
+background-color: rgb(146, 229, 230);
+scale: 2;
+box-shadow: 1px  1px 1px 1px rgb(250, 55, 55);
+
+
+}
+
+

@@ -10,3 +10,42 @@ body{
         font-size: 1px !important;
         
     }
+}
+.movimiento1 {
+    animation: movimiento1;
+    animation-duration: 5s;
+    animation-direction:reverse;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.movimiento1:hover {
+    background-color: rgb(0, 140, 248);
+    transform: scale(2);
+    animation-play-state: paused;
+
+}
+
+@keyframes movimiento1 {
+    to {
+        transform: translateX(1000px) /* Reemplaza "max-width" con un valor numérico */
+    }
+}
+
+
+
+
+.aniNav {
+    transform-origin: center;
+    transition: transform 1s;
+}
+
+.aniNav:hover {
+    transform: scaleY(-1);
+    box-shadow: rgb(0, 140, 248) 1px 1px 1px 1px ;
+
+}
+
+.aniNav:not(:hover) {
+    transform: scaleX(1);
+}
